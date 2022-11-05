@@ -8,8 +8,15 @@ const server = app.listen(port, message);
 
 app.get("/", home);
 
+app.get("/:param", home);
+
 function home(req, res) {
-  res.send("I love express");
+  var request = req.params;
+  if (!request.param == "") {
+    res.send("Your request is " + request.param);
+  } else {
+    res.send("express server is running ...");
+  }
 }
 
 function message() {
