@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
   res.send("Deta express server is running ...");
 });
 
-const server = app.listen(port, () => {
-  console.log(`Server is running ... in port ${port}`);
-});
+app.listen(port);
+
+module.exports = app;

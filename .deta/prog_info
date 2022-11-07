@@ -1,1 +1,1 @@
-{"id":"a7f95263-437b-4516-b315-75282f466933","space":37115,"runtime":"nodejs14.x","name":"node-express","path":"ncojnk","project":"d09xqx3w","account":"144798365827","region":"ap-south-1","deps":["express@^4.18.2"],"envs":null,"public":true,"log_level":"off","cron":""}
+{"id":"a7f95263-437b-4516-b315-75282f466933","space":37115,"runtime":"nodejs14.x","name":"node-express","path":"ncojnk","project":"d09xqx3w","account":"144798365827","region":"ap-south-1","deps":["express@^4.18.2"],"envs":null,"public":true,"log_level":"debug","cron":""}
