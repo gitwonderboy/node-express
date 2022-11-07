@@ -1,0 +1,10 @@
+{
+        "name": "node-express",
+        "id": "a7f95263-437b-4516-b315-75282f466933",
+        "project": "d09xqx3w",
+        "runtime": "nodejs14.x",
+        "endpoint": "https://ncojnk.deta.dev",
+        "region": "ap-south-1",
+        "visor": "disabled",
+        "http_auth": "disabled"
+}

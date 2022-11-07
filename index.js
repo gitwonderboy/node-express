@@ -4,21 +4,10 @@ const app = express();
 
 const port = 3000;
 
-const server = app.listen(port, message);
+app.get("/", (req, res) => {
+  res.send("Deta express server is running ...");
+});
 
-app.get("/", home);
-
-app.get("/:param", home);
-
-function home(req, res) {
-  var request = req.params;
-  if (!request.param == "") {
-    res.send("Your request is " + request.param);
-  } else {
-    res.send("express server is running ...");
-  }
-}
-
-function message() {
-  console.log("Sever is listening in port " + port + " ...");
-}
+const server = app.listen(port, () => {
+  console.log(`Server is running ... in port ${port}`);
+});
